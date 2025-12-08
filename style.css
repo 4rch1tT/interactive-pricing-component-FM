@@ -10,9 +10,16 @@
   align-items: center;
 }
 
+.bg-pattern {
+  z-index: -2;
+}
+
 .container {
   position: absolute;
   top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .container-p1 {
@@ -35,6 +42,7 @@
 
 #slider {
   width: 80%;
+  margin-bottom: 10px;
 }
 
 #discount {
@@ -49,22 +57,35 @@
   position: absolute;
   left: 180px;
   top: 4px;
+  z-index: -1;
 }
 
 .pricing-container {
   display: flex;
   justify-content: space-between;
+  padding: 0px 50px;
   margin-bottom: 10px;
 }
 
 .trial-details {
-  width: 327px;
   display: flex;
   justify-content: space-between;
+  padding: 0px 50px;
+  margin-top: 15px;
 }
 
 .trial-btn-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+}
+
+.billing-container {
+  display: flex;
+  justify-content: center;
 }
