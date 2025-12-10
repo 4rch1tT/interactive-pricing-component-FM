@@ -16,7 +16,7 @@
   </head>
   <body>
     <main class="main-container">
-      <img src="./images/bg-pattern.svg" alt="bg-pattern" class="bg-pattern"/>
+      <img src="./images/bg-pattern.svg" alt="bg-pattern" class="bg-pattern" />
       <div class="container">
         <div class="container-p1">
           <img
@@ -24,14 +24,16 @@
             alt="pattern-circles"
             id="pattern-circles"
           />
-          <h1>Simple, traffic-based pricing</h1>
-          <p>Sign-up for our 30-day trial. No credit card required.</p>
+          <div>
+            <h1>Simple, traffic-based pricing</h1>
+            <p>Sign-up for our 30-day trial. No credit card required.</p>
+          </div>
         </div>
         <div class="container-p2">
           <div>
             <div class="pricing-container">
-              <div><span></span>Pageviews</div>
-              <div>$<span></span>/month</div>
+              <div><span id="pageview-no"></span>PAGEVIEWS</div>
+              <div>$<span id="amount-no"></span>/month</div>
             </div>
             <div class="input-div">
               <input type="range" name="" id="slider" />
@@ -43,6 +45,7 @@
               <span id="discount"> 25% discount</span>
             </div>
           </div>
+          <hr />
           <div class="trial-details">
             <div>
               <div>
@@ -59,7 +62,7 @@
               </div>
             </div>
             <div class="trial-btn-container">
-              <button>Start my trial</button>
+              <button class="trial-btn">Start my trial</button>
             </div>
           </div>
         </div>
