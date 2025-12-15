@@ -32,16 +32,23 @@
         <div class="container-p2">
           <div class="part1">
             <div class="pricing-container">
-              <div class="pageview-info"><span id="pageview-no"></span>PAGEVIEWS</div>
+              <div class="pageview-info">
+                <span id="pageview-no"></span>PAGEVIEWS
+              </div>
               <div class="amount-info">$<span id="amount-no"></span>/month</div>
             </div>
             <div class="input-div">
               <input type="range" name="" id="slider" />
             </div>
-            <div class="billing-container">
-              Monthly Billing
-              <button>****</button>
-              Yearly Billing
+            <div class="billing-container-main">
+              <div class="billing-container">
+                Monthly Billing
+                <label class="switch">
+                  <input type="checkbox" />
+                  <span class="toggle round"></span>
+                </label>
+                Yearly Billing
+              </div>
               <span id="discount"> 25% discount</span>
             </div>
           </div>
