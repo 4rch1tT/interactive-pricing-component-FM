@@ -188,9 +188,9 @@ input[type="range"]::-ms-fill-upper {
   background: #e5e7eb;
 }
 input[type="range"] {
-  --value: 50%; /* Default value, will be updated by JS */
+  --value: 50%;
 }
-
+}
 
 input[type="range"]::-moz-range-track {
   background: hsl(224, 65%, 95%);
