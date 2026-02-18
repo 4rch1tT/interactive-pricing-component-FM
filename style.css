@@ -209,6 +209,7 @@ input[type="range"]::-webkit-slider-thumb {
   background-position: center;
   border-radius: 50%;
   margin-top: -15px;
+  box-shadow: 0 8px 16px 0 hsl(174, 86%, 45%);
 }
 
 input[type="range"]::-moz-range-thumb {
@@ -220,6 +221,7 @@ input[type="range"]::-moz-range-thumb {
   background-position: center;
   border-radius: 50%;
   border: none;
+  box-shadow: 0 8px 16px 0 hsl(174, 86%, 45%);
 }
 
 #discount {
@@ -242,6 +244,7 @@ input[type="range"]::-moz-range-thumb {
 .pricing-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0px 50px;
   margin-bottom: 10px;
 }
@@ -306,7 +309,16 @@ input[type="range"]::-moz-range-thumb {
 }
 
 .amount-info {
+  display: flex;
+  align-items: center;
   font-size: 15px;
   font-weight: 600;
   color: hsl(225, 20%, 60%);
 }
+
+#amount-no{
+  font-size: 36px;
+  font-weight: 700;
+  color: hsl(227, 35%, 25%);
+}
+
