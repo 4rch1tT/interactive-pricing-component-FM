@@ -2,6 +2,8 @@ const slider = document.querySelector('input[type="range"]');
 const pageview = document.getElementById("pageview-no");
 const amount = document.getElementById("amount-no");
 const checkbox = document.getElementById("checkbox");
+const mediaQuery = window.matchMedia("(max-width: 600px)");
+const discountSpan = document.getElementById("discount");
 
 function updatePricing() {
   const min = slider.min ? parseFloat(slider.min) : 0;
@@ -45,10 +47,19 @@ function updateSliderColor() {
   slider.style.setProperty("--value", percent + "%");
 }
 
+function handleTabletChange(e) {
+  if (e.matches) {
+    discountSpan.innerHTML = "-25%";
+  } else {
+    discountSpan.innerHTML = "25% discount";
+  }
+}
+
 slider.addEventListener("input", function () {
   updateSliderColor();
   updatePricing();
 });
+
 window.addEventListener("DOMContentLoaded", function () {
   updateSliderColor();
   updatePricing();
@@ -57,3 +68,9 @@ window.addEventListener("DOMContentLoaded", function () {
 checkbox.addEventListener("change", function () {
   updatePricing();
 });
+
+mediaQuery.addEventListener("change",
+  function (){
+    handleTabletChange(mediaQuery)
+  }
+)
