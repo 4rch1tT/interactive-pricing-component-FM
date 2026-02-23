@@ -6,10 +6,8 @@ This is my solution to the [Interactive pricing component challenge on Frontend 
 
 - [Overview](#overview)
 - [Features](#features)
-- [Screenshot](#screenshot)
 - [Links](#links)
 - [Built With](#built-with)
-- [How to Use](#how-to-use)
 - [What I Learned](#what-i-learned)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -27,8 +25,8 @@ This project is a responsive interactive pricing component. Users can view diffe
 
 ## Links
 
-- [Live Site](#)
-- [Frontend Mentor Solution](#)
+- [Live Site](https://interactive-pricing-component-gb8dyt0n3.vercel.app/)
+- [GitHub Repository](https://github.com/4rch1tT/interactive-pricing-component-FM.git)
 
 ## Built With
 
