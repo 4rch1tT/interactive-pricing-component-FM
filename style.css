@@ -375,3 +375,45 @@ input[type="range"]::-moz-range-thumb {
     right: 1px;
   }
 }
+
+@media (max-width: 443px){
+  #pattern-circles{
+    position: absolute;
+    left: 160px;
+  }
+
+  .input-div{
+    position: absolute;
+    top: 310px;
+  }
+
+  #discount{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width:385px){
+  #pattern-circles{
+    position: absolute;
+    left: 130px;
+  }
+
+  .container-p1 p{
+    padding: 0px 30px;
+  }
+
+  .input-div{
+    position: absolute;
+    top: 320px;
+  }
+
+   #discount{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 10px;
+  }
+}
