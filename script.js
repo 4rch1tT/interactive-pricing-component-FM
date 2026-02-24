@@ -63,14 +63,13 @@ slider.addEventListener("input", function () {
 window.addEventListener("DOMContentLoaded", function () {
   updateSliderColor();
   updatePricing();
+  handleTabletChange(mediaQuery);
 });
 
 checkbox.addEventListener("change", function () {
   updatePricing();
 });
 
-mediaQuery.addEventListener("change",
-  function (){
-    handleTabletChange(mediaQuery)
-  }
-)
+mediaQuery.addEventListener("change", function () {
+  handleTabletChange(mediaQuery);
+});
