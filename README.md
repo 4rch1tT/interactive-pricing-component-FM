@@ -25,7 +25,7 @@ This project is a responsive interactive pricing component. Users can view diffe
 
 ## Links
 
-- [Live Site](https://interactive-pricing-component-gb8dyt0n3.vercel.app/)
+- [Live Site](https://interactive-pricing-component-fm-mocha.vercel.app/)
 - [GitHub Repository](https://github.com/4rch1tT/interactive-pricing-component-FM.git)
 
 ## Built With
