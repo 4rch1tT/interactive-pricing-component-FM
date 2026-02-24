@@ -335,6 +335,10 @@ input[type="range"]::-moz-range-thumb {
   font-weight: 800;
 }
 
+.container{
+  padding: 40px 0px;
+}
+
 .container-p1 p {
   font-size: 14px;
   color: hsl(225, 20%, 60%);
@@ -372,6 +376,7 @@ input[type="range"]::-moz-range-thumb {
 
   .input-div{
     position: absolute;
+    top: 330px;
     right: 1px;
   }
 }
@@ -384,7 +389,7 @@ input[type="range"]::-moz-range-thumb {
 
   .input-div{
     position: absolute;
-    top: 310px;
+    top: 340px;
   }
 
   #discount{
@@ -407,7 +412,7 @@ input[type="range"]::-moz-range-thumb {
 
   .input-div{
     position: absolute;
-    top: 320px;
+    top: 350px;
   }
 
    #discount{
